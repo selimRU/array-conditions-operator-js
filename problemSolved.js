@@ -1,9 +1,8 @@
 var me = 85;
 var tom = 66;
 var jane = 95;
-var prter = 40;
-var john = 56;
-
+var peter = 40;
+// problem-1
 // me
 if (me >= 80) {
     console.log('my result is A');
@@ -44,4 +43,27 @@ else if (tom <= 39) {
 }
 else {
     console.log('tom is absent');
+}
+
+// problem-2
+
+var num1 = 17;
+var num2 = 45;
+var num3 = 75;
+
+if (num1 > num2) {
+    console.log('num1 largest');
+}
+
+else if (num1 > num3) {
+     console.log('num1 largest');
+}
+else if (num2 > num3) {
+    console.log('num2 largest');
+}
+else if (num3 > num1) {
+    console.log('num3 largest');
+}
+else {
+    console.log('num1 or num2 largest');
 }
